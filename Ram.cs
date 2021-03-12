@@ -14,6 +14,14 @@ namespace TheVehicles
         {
             Console.WriteLine("The silver Ram growls you. BZrroooooooomuble!!");
         }
-
+        public void Turn()
+        {
+            Console.WriteLine("The way this ram vehicle swerved on the right turn of....");
+        }
+        public void Stop()
+        {
+            Console.WriteLine("But it stopped after because we had to catch our breath.");
+            Console.WriteLine("");
+        }
     }
 }
