@@ -12,7 +12,7 @@ namespace TheVehicles
         }
         public void Drive()
         {
-            Console.WriteLine("Vroom Vroooom!");
+            Console.WriteLine("The Midnight Blue Zero zips by you. Vroom Vroooom!");
         }
     }
 

@@ -11,7 +11,7 @@ namespace TheVehicles
         }
         public void Drive()
         {
-            Console.WriteLine("Bzzzzzzzz!");
+            Console.WriteLine("The coolaid Teslas blazes by you. Bzzzzzzzz-oooo!");
         }
     }
 }
