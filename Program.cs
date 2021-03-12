@@ -12,9 +12,20 @@ namespace TheVehicles
             Ram truckType5 = new Ram();
 
             fxs.Drive();
+            fxs.Turn();
+            fxs.Stop();
+
             modelS.Drive();
+            modelS.Turn();
+            modelS.Stop();
+
             mx410.Drive();
+            mx410.Turn();
+            mx410.Stop();
+
             truckType5.Drive();
+            truckType5.Turn();
+            truckType5.Stop();
         }
     }
 }
