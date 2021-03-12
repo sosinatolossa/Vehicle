@@ -14,10 +14,12 @@ namespace TheVehicles
         {
             Console.WriteLine("The silver Ram growls you. BZrroooooooomuble!!");
         }
+        // Overriding the Turn() method here so we can console different message
         public void Turn()
         {
             Console.WriteLine("The way this ram vehicle swerved on the right turn of....");
         }
+        // Overriding the Stop() method here so we can console different message
         public void Stop()
         {
             Console.WriteLine("But it stopped after because we had to catch our breath.");
