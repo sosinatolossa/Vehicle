@@ -7,6 +7,7 @@ namespace TheVehicles
     // the sub/child classes
     public class Vehicle
     {
+        //Properties
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
         public void Drive() //we will define a Drive() method here so the child classes can use this if they want to
