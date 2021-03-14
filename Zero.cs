@@ -10,7 +10,7 @@ namespace TheVehicles
         {
             // method definition omitted
         }
-        public void Drive()
+        public override void Drive()
         {
             Console.WriteLine("The Midnight Blue Zero zips by you. Vroom Vroooom!");
         }
