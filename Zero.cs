@@ -12,7 +12,7 @@ namespace TheVehicles
         }
         public override void Drive()
         {
-            Console.WriteLine("The Midnight Blue Zero zips by you. Vroom Vroooom!");
+            Console.WriteLine($"The Midnight {MainColor} Zero zips by you. Vroom Vroooom!");
         }
     }
 

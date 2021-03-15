@@ -12,7 +12,7 @@ namespace TheVehicles
         }
         public override void Drive()
         {
-            Console.WriteLine("The White Cessna, that sounds like your name, flashes by you like a hurricane. Zoooooooom!");
+            Console.WriteLine($"The {MainColor} Cessna, that sounds like your name, flashes by you like a hurricane. Zoooooooom!");
         }
         // Overriding the Turn() method here so we can console different message
         public override void Turn()

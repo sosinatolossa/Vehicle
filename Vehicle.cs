@@ -16,7 +16,7 @@ namespace TheVehicles
         }
         public virtual void Turn() //Turn() method also the child classes can use
         {
-            Console.WriteLine("The vehicle turned right on a red light!!");
+            Console.WriteLine($"The vehicle turned right on a red light!!");
         }
         public virtual void Stop() // And Stop() method
         {

@@ -11,7 +11,7 @@ namespace TheVehicles
         }
         public override void Drive()
         {
-            Console.WriteLine("The coolaid Teslas blazes by you. Bzzzzzzzz-oooo!");
+            Console.WriteLine($"The {MainColor} coolaid Teslas blazes by you. Bzzzzzzzz-oooo!");
         }
 
     }

@@ -12,7 +12,7 @@ namespace TheVehicles
         }
         public override void Drive()
         {
-            Console.WriteLine("The silver Ram growls you. BZrroooooooomuble!!");
+            Console.WriteLine($"The {MainColor} Ram growls you. BZrroooooooomuble!!");
         }
         // Overriding the Turn() method here so we can console different message
         public override void Turn()
