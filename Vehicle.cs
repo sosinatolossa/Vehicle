@@ -10,15 +10,15 @@ namespace TheVehicles
         //Properties
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
-        public void Drive() //we will define a Drive() method here so the child classes can use this if they want to
+        public virtual void Drive() //we will define a Drive() method here so the child classes can use this if they want to
         {
             Console.WriteLine("Vrooom!");
         }
-        public void Turn() //Turn() method also the child classes can use
+        public virtual void Turn() //Turn() method also the child classes can use
         {
-            Console.WriteLine("The vehicle turned right on a red light!!");
+            Console.WriteLine($"The vehicle turned right on a red light!!");
         }
-        public void Stop() // And Stop() method
+        public virtual void Stop() // And Stop() method
         {
             Console.WriteLine("But it decided to stop on the next turn and there wasn't even a stop sign nor light. So weird.");
             Console.WriteLine("");

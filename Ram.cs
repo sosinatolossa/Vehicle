@@ -10,17 +10,17 @@ namespace TheVehicles
         {
             // method definition omitted
         }
-        public void Drive()
+        public override void Drive()
         {
-            Console.WriteLine("The silver Ram growls you. BZrroooooooomuble!!");
+            Console.WriteLine($"The {MainColor} Ram growls you. BZrroooooooomuble!!");
         }
         // Overriding the Turn() method here so we can console different message
-        public void Turn()
+        public override void Turn()
         {
             Console.WriteLine("The way this ram vehicle swerved on the right turn of....");
         }
         // Overriding the Stop() method here so we can console different message
-        public void Stop()
+        public override void Stop()
         {
             Console.WriteLine("But it stopped after because we had to catch our breath.");
             Console.WriteLine("");

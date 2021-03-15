@@ -6,10 +6,30 @@ namespace TheVehicles
     {
         static void Main(string[] args)
         {
-            Zero fxs = new Zero();
-            Tesla modelS = new Tesla();
-            Cessna mx410 = new Cessna();
-            Ram truckType5 = new Ram();
+            Zero fxs = new Zero()
+            {
+                MainColor = "blue",
+                MaximumOccupancy = "2345",
+                BatteryKWh = 3.576
+            };
+            Tesla modelS = new Tesla()
+            {
+                MainColor = "red",
+                MaximumOccupancy = "4356",
+                BatteryKWh = 5.576
+            };
+            Cessna mx410 = new Cessna()
+            {
+                MainColor = "white",
+                MaximumOccupancy = "3600",
+                FuelCapacity = 1.576
+            };
+            Ram truckType5 = new Ram()
+            {
+                MainColor = "silver",
+                MaximumOccupancy = "3600",
+                FuelCapacity = 7.576
+            };
 
             fxs.Drive();
             fxs.Turn();
