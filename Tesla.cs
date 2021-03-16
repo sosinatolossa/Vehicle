@@ -1,13 +1,13 @@
 using System;
 namespace TheVehicles
 {
-    public class Tesla : Vehicle
+    public class Tesla : Vehicle, IElectricVehicle
     {
         public double BatteryKWh { get; set; }
 
         public void ChargeBattery()
         {
-            // method definition omitted
+            Console.WriteLine("This is the tesla refuel tank.");
         }
         public override void Drive()
         {

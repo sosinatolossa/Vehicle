@@ -2,13 +2,13 @@ using System;
 namespace TheVehicles
 {
     // Zero is electric motorcycle
-    public class Zero : Vehicle
+    public class Zero : Vehicle, IElectricVehicle
     {
         public double BatteryKWh { get; set; }
 
         public void ChargeBattery()
         {
-            // method definition omitted
+            Console.WriteLine("This is the Zerooo refuel tank.");
         }
         public override void Drive()
         {
